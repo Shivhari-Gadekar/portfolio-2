@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yogesh Gadekar - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Yogesh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Yogesh</span>
+                <div>& I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn1">Download Resume</button>
+                    <button class="btn2">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="web-developer.png" alt="Pic">
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have learn so far</span>
+            <h1>Technical Skills</h1>
+            <div class="box">
+                <div class="verticle">
+                    <div class="verticalText">Programming Languages
+                        <ul>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>C/C++</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="verticle">
+                    <div class="verticalText">Web Development
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="verticle">
+                    <div class="verticalText">Databases &nbsp;
+                        <ul>
+                            <li>mySQL</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="verticle">
+                    <div class="verticalText">Other &nbsp;
+                        <ul>
+                            <li>Git</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Yogesh's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                Follow Me <br>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </div>
+            <div class="footer-fourth">
+                <img src="mypic.jpeg" alt="My Pic" style="width:150px">
+            </div>
+        </div>
+        <div class="footer-rights">
+            &#169; www.yogeshgadekar.com | All Rights Reserved.
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Database Designer', 'Web Designer', 'Java Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>

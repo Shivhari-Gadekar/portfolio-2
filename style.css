@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(4, 4, 32);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover {
+    color: rgb(153, 153, 226);
+    border-bottom: solid 1px #9c97f1;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 2.2rem;
+}
+
+.purple {
+    color: rgb(170, 107, 228);
+    font-weight: bold;
+}
+
+#element {
+    color: rgb(170, 107, 228);
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 500px;
+}
+
+.secondSection h1 {
+    font-size: 1.9rem;
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.secondSection .box {
+    background: white;
+    height: 2px;
+    width: 80vw;
+    margin: 36px 0;
+    display: flex;
+}
+
+.secondSection .verticle {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 135px;
+}
+
+.secondSection .verticalText {
+    position: relative;
+    top: 98px;
+    color: rgb(170, 107, 228);
+    font-size: 1.2rem;
+}
+
+.secondSection .verticalText ul {
+    color: white;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.secondSection .verticalText ul li {
+    list-style-type: disc;
+}
+
+footer {
+    background-color: #0e0e1a;
+}
+
+.footer {
+    display: flex;
+    padding: 20px 115px;
+    justify-content: space-evenly;
+}
+
+.footer-third a {
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+    padding-right: 10px;
+    margin-top: 13px;
+}
+
+.footer-third a:hover {
+    color: rgb(170, 107, 228);
+}
+
+.footer-fourth img{
+    border-radius: 50%;
+    border:solid 5px;
+    border-color: red yellow cyan cornflowerblue;;
+}
+
+.footer-rights {
+    text-align: center;
+    color: gray;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+.footer-first {
+    font-size: 1.1rem;
+    margin-top: 25px;
+    color: rgb(170, 107, 228);
+}
+
+.leftSection .buttons button {
+    padding: 12px;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn1 {
+    color: black;
+    border: black;
+}
+
+.btn2 {
+    background-color: rgb(114, 46, 179);
+    color: white;
+}
+
+.leftSection .buttons {
+    padding: 23px;
+}
